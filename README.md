@@ -17,6 +17,17 @@ npm start
 # OR using Yarn
 yarn start
 ```
+npm uninstall -g react-native-cli @react-native-community/cli
+
+npx react-native init FinanceTracker
+
+cd FinanceTracker
+
+npm install @react-navigation/native @react-navigation/stack react-native-screens react-native-safe-area-context @react-native-async-storage/async-storage react-native-chart-kit
+
+npm install react-native-gesture-handler
+
+
 
 ## Step 2: Start your Application
 
